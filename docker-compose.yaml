@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    command: >
+      bash -c "python create_ccle_db.py
+      && uvicorn main:app --host 0.0.0.0"
+    ports:
+      - "8000:8000"

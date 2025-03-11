@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "deps_002"
+version = "0.1.0"
+authors = ["patricia wiharto"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.0"
+numpy = "1.26.4"
+fastapi = "^0.85.1"
+uvicorn = "^0.18.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
