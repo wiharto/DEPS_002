@@ -3,7 +3,7 @@ The Data Engineering Project Series (DEPS) showcases my expertise in designing a
 > [!NOTE]
 > The projects in DEPS are demonstration assignments originally created for technical interviews, designed to showcase technical skills and problem-solving capabilities.
 
-# DEPS_002:
+# DEPS_002: TCGA Hotspot
 
 ## Summary
 This application creates an API endpoints to check for the following questions:
