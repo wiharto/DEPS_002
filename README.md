@@ -3,7 +3,7 @@ The Data Engineering Project Series (DEPS) showcases my expertise in designing a
 > [!NOTE]
 > The projects in DEPS are demonstration assignments originally created for technical interviews, designed to showcase technical skills and problem-solving capabilities.
 
-# DEPS_002: TCGA Hotspot
+# DEPS_002: TCGA Hotspot 
 
 ## Summary
 This application creates an API endpoints to check for the following questions:
@@ -43,8 +43,8 @@ Request and response are in JSON format.
 #### Question 1 (Determine whether a given gene and cell line is a TCGA hotspot):
 ![Example using gene: 7157 and cell line: ACH-000001](https://github.com/wiharto/DEPS_002/blob/main/images/istcgahotspot.png)
 
-#### Question 2 (List of TCGA hotspot genes for a given cell line):
+#### Question 2 (List of cell lines that a given gene is a TCGA hotspot for):
 ![Example using gene: 7157](https://github.com/wiharto/DEPS_002/blob/main/images/listofcelllines.png)
 
-#### Question 3 (List of cell lines that a given gene is a TCGA hotspot for):
+#### Question 3 (List of TCGA hotspot genes for a given cell line):
 ![Example using cell line: ACH-000007](https://github.com/wiharto/DEPS_002/blob/main/images/tcgahotspotgenes.png)
