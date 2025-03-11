@@ -7,7 +7,7 @@ The Data Engineering Project Series (DEPS) showcases my expertise in designing a
 
 ## Summary
 This application creates an API endpoints to check for the following questions:
-1. Determine whether a given gene is a TCGA hotspot for a given cell line.
+1. Determine whether a given gene and cell line is a TCGA hotspot.
 2. List of TCGA hotspot genes for a given cell line.
 3. List of cell lines that a given gene is a TCGA hotspot for.
 
@@ -39,27 +39,12 @@ There are 3 endpoints for this application:
 ## How to send a request to the API
 Using an API platform of your choice (Insomnia, Postman, etc), decide which one of the 3 questions above you want to send a request for.
 Request and response are in JSON format.
-### Determine whether a given gene is a TCGA hotspot for a given cell line.:
 
-### For the `return the list of TCGA hotspot genes for a given cell line` requirement:
-```
-Example
-==============================================================================================================================
-Method       : POST
-URL          : http://0.0.0.0:8000/hotspot_genes?page=1 (I created pagination of size = 5 in case the result is huge)
-Request body : 
-{
-    "cell_line": "ACH-000007"
-}
-```
-### For the `return the list of cell lines that a given gene is a TCGA hotspot for` requirement:
-```
-Example
-==============================================================================================================================
-Method       : POST
-URL          : http://0.0.0.0:8000/hotspot_cell_line?page=1 (I created pagination of size = 5 in case the result is huge)
-Request body : 
-{
-	"gene": "7157"
-}
-```
+#### Question 1 (Determine whether a given gene and cell line is a TCGA hotspot):
+![Example using gene: 7157 and cell line: ACH-000001](https://github.com/wiharto/DEPS_002/blob/main/images/istcgahotspot.png)
+
+#### Question 2 (List of TCGA hotspot genes for a given cell line):
+![Example using gene: 7157](https://github.com/wiharto/DEPS_002/blob/main/images/listofcelllines.png)
+
+#### Question 3 (List of cell lines that a given gene is a TCGA hotspot for):
+![Example using cell line: ACH-000007](https://github.com/wiharto/DEPS_002/blob/main/images/tcgahotspotgenes.png)
